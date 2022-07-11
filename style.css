@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
-    background-color: rgba(31,33,36,255);
+    background-color: rgba(31, 33, 36, 255);
 }
 
 #digi {
@@ -11,6 +11,23 @@
 
 #lit {
     color: blueviolet;
+}
+
+.about h1 {
+    margin-top: 275px;
+    color: #9aa0a5;
+    text-align: center;
+}
+
+.about p {
+    color: #9aa0a5;
+    display: inline-block;
+    text-align: left;
+}
+
+.about .container-about {
+    margin: 50px;
+    text-align: center;
 }
 
 .title {
@@ -79,7 +96,7 @@ a:hover {
     margin-top: 10px;
     padding: 10px;
     color: white;
-    background-color: rgba(48,49,53,255);
+    background-color: rgba(48, 49, 53, 255);
     border: none;
     border-radius: 3px;
 }
@@ -88,7 +105,9 @@ a:hover {
     background-color: blueviolet;
 }
 
-input, select, textarea{
+input,
+select,
+textarea {
     color: white;
 }
 

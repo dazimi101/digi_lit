@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: rgba(31,33,36,255);
+}
+
+#digi {
+    color: white;
+}
+
+#lit {
+    color: blueviolet;
+}
+
+.title {
+    margin-top: 225px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.header-bar {
+    margin: 25px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.left-header {
+    display: flex;
+    float: left;
+    padding: 5px;
+}
+
+.right-header {
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.right-header span {
+    padding-left: 20px;
+}
+
+.right-header img {
+    border-radius: 75%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9aa0a5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #9aa0a5;
+}
+
+.search {
+    margin: 18px;
+    text-align: center;
+    align-items: center;
+}
+
+.search input {
+    margin: 10px;
+    padding: 15px;
+    width: 500px;
+    border-radius: 24px;
+    border: 1.5px #4e5155 solid;
+}
+
+.search button {
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(48,49,53,255);
+    border: none;
+    border-radius: 3px;
+}
+
+.search button:hover {
+    background-color: blueviolet;
+}

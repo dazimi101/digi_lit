@@ -91,3 +91,21 @@ a:hover {
 input, select, textarea{
     color: white;
 }
+
+.container {
+    display: flex;
+    background: blueviolet;
+    padding: 15px;
+    height: 20px;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.container span,
+.container a {
+    background-color: blueviolet;
+    color: #9aa0a5;
+}

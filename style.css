@@ -87,3 +87,7 @@ a:hover {
 .search button:hover {
     background-color: blueviolet;
 }
+
+input, select, textarea{
+    color: white;
+}
